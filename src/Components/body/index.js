@@ -1,0 +1,31 @@
+import React from "react";
+import "./body.css";
+import About from "./about/index";
+import Skills from "./skills/index";
+import Work from "./work/index";
+import Contact from "./contact/index";
+/* import Proyect from "./proyect/index"; */
+
+function Body() {
+    return(
+        <div className="body">
+            <section id="about">
+                <About />
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+            <section id="work">
+                <Work />
+            </section>
+            <section id="proyect">
+                {/* <Proyect /> */}
+            </section>
+            <section id="contact">
+                <Contact />
+            </section>
+        </div>
+    );
+}
+
+export default Body;

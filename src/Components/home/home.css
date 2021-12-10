@@ -1,0 +1,28 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,74,142,1) 21%, rgba(51,114,175,1) 48%, rgba(105,138,166,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1024px){
+    .home {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 512px){
+    .home {
+        width: 100%;
+    }
+}
